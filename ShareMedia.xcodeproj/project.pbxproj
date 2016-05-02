@@ -14,6 +14,8 @@
 		9B68F10A1C7DA95B00D1FC85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B68F1081C7DA95B00D1FC85 /* LaunchScreen.storyboard */; };
 		9B68F1151C7DA95B00D1FC85 /* ShareMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F1141C7DA95B00D1FC85 /* ShareMediaTests.swift */; };
 		9B68F1201C7DA95B00D1FC85 /* ShareMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F11F1C7DA95B00D1FC85 /* ShareMediaUITests.swift */; };
+		9B68F12E1C7DA99A00D1FC85 /* SocialShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68F12D1C7DA99A00D1FC85 /* SocialShareButton.swift */; };
+		9B68F1301C7DB30900D1FC85 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B68F12F1C7DB30900D1FC85 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B68F11B1C7DA95B00D1FC85 /* ShareMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B68F11F1C7DA95B00D1FC85 /* ShareMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMediaUITests.swift; sourceTree = "<group>"; };
 		9B68F1211C7DA95B00D1FC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B68F12D1C7DA99A00D1FC85 /* SocialShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialShareButton.swift; sourceTree = "<group>"; };
+		9B68F12F1C7DB30900D1FC85 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				9B68F0FF1C7DA95B00D1FC85 /* AppDelegate.swift */,
+				9B68F12F1C7DB30900D1FC85 /* logo.jpg */,
+				9B68F12D1C7DA99A00D1FC85 /* SocialShareButton.swift */,
 				9B68F1011C7DA95B00D1FC85 /* ViewController.swift */,
 				9B68F1031C7DA95B00D1FC85 /* Main.storyboard */,
 				9B68F1061C7DA95B00D1FC85 /* Assets.xcassets */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B68F1301C7DB30900D1FC85 /* logo.jpg in Resources */,
 				9B68F10A1C7DA95B00D1FC85 /* LaunchScreen.storyboard in Resources */,
 				9B68F1071C7DA95B00D1FC85 /* Assets.xcassets in Resources */,
 				9B68F1051C7DA95B00D1FC85 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B68F12E1C7DA99A00D1FC85 /* SocialShareButton.swift in Sources */,
 				9B68F1021C7DA95B00D1FC85 /* ViewController.swift in Sources */,
 				9B68F1001C7DA95B00D1FC85 /* AppDelegate.swift in Sources */,
 			);
